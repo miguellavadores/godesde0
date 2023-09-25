@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/mlavadores/godesde0/variables"
+	"github.com/miguellavadores/godesde0/variables"
 )
 
 func main() {
