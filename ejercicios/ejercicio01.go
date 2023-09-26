@@ -1,18 +1,15 @@
 package ejercicios
 
-import (
-	"fmt"
-	"strconv"
-)
+import "strconv"
 
-func ConvierteTextoNumero(numero string) (int, error) {
-	resultado, err := strconv.Atoi(numero)
-
-	if resultado > 100 {
-		fmt.Println("Es mayor a 100")
-	} else {
-		fmt.Println("Es menor a 100")
+func ConvNumerico(texto string) (int, string) {
+	num, err := strconv.Atoi(texto)
+	if err != nil {
+		return 0, "Hubo un error" + err.Error()
 	}
-
-	return resultado, err
+	if num > 100 {
+		return num, "Es mayor a 100"
+	} else {
+		return num, "Es menor a 100"
+	}
 }

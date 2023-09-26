@@ -1,11 +1,16 @@
 package main
 
 import (
+	"fmt"
+
 	"github.com/miguellavadores/godesde0/ejercicios"
 	/*"runtime"*/ /*"github.com/miguellavadores/godesde0/variables"*/)
 
 func main() {
-	ejercicios.ConvierteTextoNumero("101")
+
+	numero, texto := ejercicios.ConvNumerico("aaaa")
+	fmt.Println(numero)
+	fmt.Println(texto)
 
 	/*estado, texto := variables.ConviertoaTexto(1588)
 	fmt.Println(estado)
