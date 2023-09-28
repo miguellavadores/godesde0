@@ -1,13 +1,19 @@
 package main
 
 import (
-	"github.com/miguellavadores/godesde0/files"
+	"github.com/miguellavadores/godesde0/mapas"
 	/*"fmt"*/ //"github.com/miguellavadores/godesde0/teclado"
 	/*"github.com/miguellavadores/godesde0/ejercicios"*/ /*"runtime"*/ /*"github.com/miguellavadores/godesde0/variables"*/)
 
 func main() {
 	
-	files.LeoArchivo()
+	mapas.MostrarMapas()
+	
+	//arreglos_slices.Capacidad()
+	
+	//funciones.Exponencia(2)
+	
+	//files.LeoArchivo()
 	
 	//files.SumaTabla()
 	
