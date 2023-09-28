@@ -1,16 +1,25 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/miguellavadores/godesde0/ejercicios"
-	/*"runtime"*/ /*"github.com/miguellavadores/godesde0/variables"*/)
+	"github.com/miguellavadores/godesde0/files"
+	/*"fmt"*/ //"github.com/miguellavadores/godesde0/teclado"
+	/*"github.com/miguellavadores/godesde0/ejercicios"*/ /*"runtime"*/ /*"github.com/miguellavadores/godesde0/variables"*/)
 
 func main() {
+	
+	files.LeoArchivo()
+	
+	//files.SumaTabla()
+	
+	//fmt.Println(ejercicios.TabladeMultiplicar())
 
-	numero, texto := ejercicios.ConvNumerico("aaaa")
+	//iteraciones.Iterar()
+
+	//teclado.IngresoNumeros()
+
+	/*numero, texto := ejercicios.ConvNumerico("aaaa")
 	fmt.Println(numero)
-	fmt.Println(texto)
+	fmt.Println(texto)*/
 
 	/*estado, texto := variables.ConviertoaTexto(1588)
 	fmt.Println(estado)
