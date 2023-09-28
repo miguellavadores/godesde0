@@ -1,13 +1,31 @@
 package main
 
 import (
-	"github.com/miguellavadores/godesde0/mapas"
+	"fmt"
+
+	"github.com/miguellavadores/godesde0/goroutines"
 	/*"fmt"*/ //"github.com/miguellavadores/godesde0/teclado"
 	/*"github.com/miguellavadores/godesde0/ejercicios"*/ /*"runtime"*/ /*"github.com/miguellavadores/godesde0/variables"*/)
 
-func main() {
+	func main(){
+		
+	canal1 := make(chan bool)
 	
-	mapas.MostrarMapas()
+	go goroutines.MiNombreLentooo("Pablo Tilotta", canal1)
+	fmt.Println("Estoy aqui")
+	
+	<-canal1
+	
+	//e.EjemploPanic()
+		
+	/*func main() {
+	Pedro:=new(modelos.Hombre)
+	e.HumanosRespirando(Pedro)
+	
+	Maria:=new(modelos.Mujer)
+	e.HumanosRespirando(Maria)*/
+	
+	//mapas.MostrarMapas()
 	
 	//arreglos_slices.Capacidad()
 	
