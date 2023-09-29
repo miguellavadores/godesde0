@@ -2,13 +2,15 @@ package main
 
 import (
 
-	"github.com/miguellavadores/godesde0/webserver"
+	"github.com/miguellavadores/godesde0/middleware"
 	/*"fmt"*/ //"github.com/miguellavadores/godesde0/teclado"
 	/*"github.com/miguellavadores/godesde0/ejercicios"*/ /*"runtime"*/ /*"github.com/miguellavadores/godesde0/variables"*/)
 
 	func main(){
 		
-		webserver.MiWebServer()
+		middleware.MiMiddleware()
+		
+	//webserver.MiWebServer()
 		
 	/*canal1 := make(chan bool)
 	
