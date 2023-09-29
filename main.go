@@ -1,20 +1,21 @@
 package main
 
 import (
-	"fmt"
 
-	"github.com/miguellavadores/godesde0/goroutines"
+	"github.com/miguellavadores/godesde0/webserver"
 	/*"fmt"*/ //"github.com/miguellavadores/godesde0/teclado"
 	/*"github.com/miguellavadores/godesde0/ejercicios"*/ /*"runtime"*/ /*"github.com/miguellavadores/godesde0/variables"*/)
 
 	func main(){
 		
-	canal1 := make(chan bool)
+		webserver.MiWebServer()
+		
+	/*canal1 := make(chan bool)
 	
 	go goroutines.MiNombreLentooo("Pablo Tilotta", canal1)
 	fmt.Println("Estoy aqui")
 	
-	<-canal1
+	<-canal1*/
 	
 	//e.EjemploPanic()
 		
